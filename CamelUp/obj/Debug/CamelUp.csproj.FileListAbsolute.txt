@@ -1,0 +1,40 @@
+c:\users\nicolas\Documents\Visual Studio 2015\Projects\CamelUp\CamelUp\bin\Debug\CamelUp.exe.config
+c:\users\nicolas\Documents\Visual Studio 2015\Projects\CamelUp\CamelUp\obj\Debug\CamelUp.csprojResolveAssemblyReference.cache
+c:\users\nicolas\Documents\Visual Studio 2015\Projects\CamelUp\CamelUp\obj\Debug\CamelUp.Form1.resources
+c:\users\nicolas\Documents\Visual Studio 2015\Projects\CamelUp\CamelUp\obj\Debug\CamelUp.Properties.Resources.resources
+c:\users\nicolas\Documents\Visual Studio 2015\Projects\CamelUp\CamelUp\obj\Debug\CamelUp.csproj.GenerateResource.Cache
+c:\users\nicolas\Documents\Visual Studio 2015\Projects\CamelUp\CamelUp\bin\Debug\CamelUp.exe
+c:\users\nicolas\Documents\Visual Studio 2015\Projects\CamelUp\CamelUp\bin\Debug\CamelUp.pdb
+c:\users\nicolas\Documents\Visual Studio 2015\Projects\CamelUp\CamelUp\obj\Debug\CamelUp.exe
+c:\users\nicolas\Documents\Visual Studio 2015\Projects\CamelUp\CamelUp\obj\Debug\CamelUp.pdb
+C:\Users\1535216\Desktop\CamelUp\CamelUp\bin\Debug\CamelUp.exe.config
+C:\Users\1535216\Desktop\CamelUp\CamelUp\obj\Debug\CamelUp.exe
+C:\Users\1535216\Desktop\CamelUp\CamelUp\obj\Debug\CamelUp.pdb
+C:\Users\1535216\Desktop\CamelUp\CamelUp\bin\Debug\CamelUp.exe
+C:\Users\1535216\Desktop\CamelUp\CamelUp\bin\Debug\CamelUp.pdb
+C:\Users\1535216\Desktop\CamelUp\CamelUp\obj\Debug\CamelUp.csprojResolveAssemblyReference.cache
+C:\Users\1535216\Desktop\CamelUp\CamelUp\obj\Debug\CamelUp.Form1.resources
+C:\Users\1535216\Desktop\CamelUp\CamelUp\obj\Debug\CamelUp.Properties.Resources.resources
+C:\Users\1535216\Desktop\CamelUp\CamelUp\obj\Debug\CamelUp.csproj.GenerateResource.Cache
+D:\Users\Nicolas\Desktop\camelUp\CamelUp\bin\Debug\CamelUp.exe.config
+D:\Users\Nicolas\Desktop\camelUp\CamelUp\obj\Debug\CamelUp.exe
+D:\Users\Nicolas\Desktop\camelUp\CamelUp\obj\Debug\CamelUp.pdb
+D:\Users\Nicolas\Desktop\camelUp\CamelUp\obj\Debug\CamelUp.csprojResolveAssemblyReference.cache
+D:\Users\Nicolas\Desktop\camelUp\CamelUp\obj\Debug\CamelUp.Form1.resources
+D:\Users\Nicolas\Desktop\camelUp\CamelUp\obj\Debug\CamelUp.Properties.Resources.resources
+D:\Users\Nicolas\Desktop\camelUp\CamelUp\obj\Debug\CamelUp.csproj.GenerateResource.Cache
+D:\Users\Nicolas\Desktop\camelUp\CamelUp\bin\Debug\CamelUp.exe
+D:\Users\Nicolas\Desktop\camelUp\CamelUp\bin\Debug\CamelUp.pdb
+C:\Users\1535216\Desktop\camelUp\CamelUp\obj\Debug\CamelUp.MainMenu.resources
+D:\workspace\camelUp\CamelUp\bin\Debug\CamelUp.exe.config
+D:\workspace\camelUp\CamelUp\obj\Debug\CamelUp.exe
+D:\workspace\camelUp\CamelUp\obj\Debug\CamelUp.pdb
+D:\workspace\camelUp\CamelUp\bin\Debug\CamelUp.exe
+D:\workspace\camelUp\CamelUp\bin\Debug\CamelUp.pdb
+D:\workspace\camelUp\CamelUp\obj\Debug\CamelUp.csprojResolveAssemblyReference.cache
+D:\workspace\camelUp\CamelUp\obj\Debug\CamelUp.Form1.resources
+D:\workspace\camelUp\CamelUp\obj\Debug\CamelUp.MainMenu.resources
+D:\workspace\camelUp\CamelUp\obj\Debug\CamelUp.Properties.Resources.resources
+D:\workspace\camelUp\CamelUp\obj\Debug\CamelUp.csproj.GenerateResource.Cache
+D:\workspace\camelUp\CamelUp\obj\Debug\CamelUp.BetMenu.resources
+D:\workspace\camelUp\CamelUp\obj\Debug\CamelUp.menuScore.resources

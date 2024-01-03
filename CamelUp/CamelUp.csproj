@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0116D260-72B9-4EFF-8D8C-2B8B46FCF1ED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CamelUp</RootNamespace>
+    <AssemblyName>CamelUp</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BetMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BetMenu.Designer.cs">
+      <DependentUpon>BetMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Camel.cs" />
+    <Compile Include="Card.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cell.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dice.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Map.cs" />
+    <Compile Include="menuScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuScore.Designer.cs">
+      <DependentUpon>menuScore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BetMenu.resx">
+      <DependentUpon>BetMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuScore.resx">
+      <DependentUpon>menuScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardFirst.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardLast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyramide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oasis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_2_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_3_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_5_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_3_J.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_5_B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_5_Bl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_5_J.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_2_B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_2_Bl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_2_J.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_3_B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_3_Bl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_2_V.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_3_V.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_5_V.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_B_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_Bl_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_J_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_R_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carte_V_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyramide1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vert_u.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange_u.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange_d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuCamelUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuJoueurCamelUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bet-Card-Orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bet-Card-White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bet-Card-Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bet-Card-Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bet-Card-Yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bet-Card-Loser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bet-Card-Winner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuPerdantCamelUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuGangantCamelUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuScoreCamelUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camel-Loser-Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camel-Loser-Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camel-Loser-Orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camel-Loser-White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camel-Loser-Yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camel-Winner-Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camel-Winner-Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camel-Winner-Orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camel-Winner-White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camel-Winner-Yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Player-Rank-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Player-Rank-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Player-Rank-3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
